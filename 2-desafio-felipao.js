@@ -11,10 +11,17 @@ function getfirstname(name){
     return firstname
     }
     
-console.log("Bem vindo ao segundo desafio do Felipão");
-console.log("Sua pontuação é, ", vitorias-derrotas);
+let calculo = diminuicao(145,47)
 
-calculo= vitorias-derrotas
+function diminuicao(num1, num2){
+    let subtracao = num1 - num2
+    return subtracao
+}
+    
+console.log("Bem vindo ao segundo desafio do Felipão");
+console.log("Sua pontuação é, ", calculo);
+
+
 
 if (calculo >0 && calculo <=10) {
         console.log ("O Heroi tem de saldo **", calculo, "** esta no nivel Ferro!")
@@ -31,3 +38,5 @@ if (calculo >0 && calculo <=10) {
     } else if (calculo >101){
         console.log ("O Heroi tem de saldo **", calculo, "** esta no nivel Imortal!")
     } 
+
+
